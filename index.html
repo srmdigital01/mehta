@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEHTA IS BACK OFFICIAL</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body{
+      background:
+      radial-gradient(circle at top left,#3046ff 0%,transparent 30%),
+      radial-gradient(circle at bottom right,#00d9ff 0%,transparent 30%),
+      #050816;
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+      color:#fff;
+      overflow-x:hidden;
+    }
+
+    .main{
+      width:100%;
+      max-width:420px;
+    }
+
+    .card{
+      position:relative;
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.12);
+      border-radius:32px;
+      padding:38px 24px;
+      text-align:center;
+      backdrop-filter:blur(18px);
+      -webkit-backdrop-filter:blur(18px);
+      box-shadow:
+      0 0 45px rgba(0,140,255,0.25),
+      inset 0 0 20px rgba(255,255,255,0.04);
+      overflow:hidden;
+    }
+
+    .card::before{
+      content:'';
+      position:absolute;
+      width:180px;
+      height:180px;
+      background:rgba(255,255,255,0.05);
+      border-radius:50%;
+      top:-70px;
+      right:-70px;
+    }
+
+    .logo-box{
+      width:130px;
+      height:130px;
+      margin:auto;
+      border-radius:50%;
+      overflow:hidden;
+      border:4px solid rgba(255,255,255,0.14);
+      box-shadow:0 0 30px rgba(0,217,255,0.55);
+      background:#111;
+    }
+
+    .logo-box img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    h1{
+      font-size:28px;
+      margin-top:25px;
+      line-height:1.4;
+      font-weight:800;
+      background:linear-gradient(to right,#ffffff,#8fe8ff);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .tagline{
+      margin-top:10px;
+      color:#c7d5ff;
+      font-size:14px;
+      letter-spacing:0.5px;
+    }
+
+    .btn{
+      display:block;
+      text-decoration:none;
+      margin-top:28px;
+      background:linear-gradient(135deg,#00c6ff,#0072ff);
+      padding:16px;
+      border-radius:18px;
+      color:#fff;
+      font-weight:700;
+      font-size:16px;
+      box-shadow:0 10px 30px rgba(0,114,255,0.45);
+      transition:0.3s ease;
+    }
+
+    .btn:hover{
+      transform:translateY(-3px) scale(1.02);
+      box-shadow:0 14px 35px rgba(0,114,255,0.55);
+    }
+
+    .benefits{
+      margin-top:30px;
+      display:flex;
+      flex-direction:column;
+      gap:15px;
+    }
+
+    .item{
+      background:rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.08);
+      padding:15px;
+      border-radius:18px;
+      text-align:left;
+      font-size:14px;
+      color:#edf3ff;
+      backdrop-filter:blur(10px);
+    }
+
+    .footer{
+      margin-top:30px;
+      font-size:13px;
+      color:#c4d0ff;
+    }
+
+    .footer span{
+      color:#00d9ff;
+      font-weight:700;
+      text-shadow:0 0 12px rgba(0,217,255,0.7);
+    }
+
+    @media(max-width:480px){
+      h1{
+        font-size:24px;
+      }
+
+      .card{
+        padding:32px 20px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    <div class="card">
+
+      <!-- LOGO -->
+      <div class="logo-box">
+        <img src="https://i.ibb.co/Mxp1nfnd/IMG-20260512-125445-066.webp" alt="logo">
+      </div>
+
+      <!-- TITLE -->
+      <h1>𝐌𝐄𝐇𝐓𝐀 𝐈𝐒 𝐁𝐀𝐂𝐊 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋</h1>
+
+      <!-- TAGLINE -->
+      <div class="tagline">
+        Trusted Updates • Premium Community
+      </div>
+
+      <!-- CTA -->
+      <a href="https://t.me/yourchannel" class="btn">
+        🔘 JOIN FREE TELEGRAM 🔘
+      </a>
+
+      <!-- BENEFITS -->
+      <div class="benefits">
+
+        <div class="item">
+          ⚡ Fast Premium Updates
+        </div>
+
+        <div class="item">
+          🔥 Daily Exclusive Content
+        </div>
+
+        <div class="item">
+          🚀 100% Free Telegram Access
+        </div>
+
+        <div class="item">
+          💎 Official Trusted Community
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+      <a href="https://t.me/yourchannel" class="btn">
+        🔘 JOIN FREE TELEGRAM 🔘
+      </a>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        Managed By <span>SRM Digital</span>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
